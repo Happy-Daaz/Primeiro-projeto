@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #0F172A;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.Head-set {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+
+    background-color: white;
+    color: #1E293B;
+
+    border-radius: 15px;
+}
+
+.Head-set img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.Head-set button {
+    background-color: #2563EB;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Head-set button:hover {
+    background-color: #1D4ED8;
+}

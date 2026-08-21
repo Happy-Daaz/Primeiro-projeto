@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0d3b25;
+    min-height: 100vh; /* Garante que o fundo cubra a tela toda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    color: #222;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px; 
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
+h1 {
+    color: #0d3b25; 
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.imagem-compra {
+    max-width: 150px; 
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #0d3b25;
+    color: white;
+    text-decoration: none; 
+    padding: 16px 40px; 
+    font-size: 18px; 
+    border-radius: 50px; 
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease; 
+}
