@@ -1,4 +1,6 @@
-
+body {
+  background-color:  rosybrown;
+}
 .container-produto {
   display: grid; 
   gap: 20px;            
