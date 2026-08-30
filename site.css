@@ -47,16 +47,33 @@ body {
 }
 
 .cabecalho {
-    width: 100%;
+   width: 100%;
     height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding-left: 0px;
 }
 
 .cabecalho img {
     width: 600px;
-    max-width: 90%;
+    max-width: 30%;
     height: auto;
 }
 
+.icones img  {
+  
+  width: 60px;
+  max-width: 14%;
+  height: auto;
+}
+
+/* .icones-direita img{
+  width: 600px;
+    max-width: 14%;
+    height: auto;
+    margin-right: -27px;
+    margin-left: 12px;
+
+} */
